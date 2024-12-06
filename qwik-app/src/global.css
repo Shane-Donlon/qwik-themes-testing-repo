@@ -1,0 +1,20 @@
+/* [data-theme="dark"] {
+  #qwik-theme-toggle-dark-icon {
+    display: none;
+  }
+}
+
+[data-theme="light"] {
+  #qwik-theme-toggle-light-icon {
+    display: none;
+  }
+}
+
+#qwik-theme-toggle-dark-icon,
+#qwik-theme-toggle-light-icon {
+  background: none;
+  border: none;
+  svg {
+    height: 35px;
+  }
+} */
