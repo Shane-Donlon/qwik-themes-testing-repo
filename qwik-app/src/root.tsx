@@ -5,7 +5,7 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { isDev } from "@builder.io/qwik/build";
-import { ThemeProvider } from "../../../qwik-themes/src/";
+import { ThemeProvider } from "qwik-themes-testing-donlos";
 import { RouterHead } from "./components/router-head/router-head";
 import "./global.css";
 
