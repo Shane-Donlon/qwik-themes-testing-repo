@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link } from "@builder.io/qwik-city";
-
 import { ThemeChanger } from "qwik-themes-testing-donlos-version-1";
 export default component$(() => {
   return (
@@ -13,6 +12,7 @@ export default component$(() => {
         praesentium quae numquam ad cumque ea neque veniam reiciendis porro.
         Voluptatem.
       </p>
+      <p>about page</p>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
     </>
@@ -20,7 +20,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "About Page",
   meta: [
     {
       name: "description",
