@@ -25,7 +25,7 @@ export const NavLink = component$(({ activeClass, ...props }: NavLinkProps) => {
   return (
     <Link
       {...props}
-      class={`${props.class || ""} ${isActive ? activeClass : ""}`}
+      class={`${props.class || ""} ${isActive && activeClass ? activeClass : ""}`}
       aria-current={isActive ? "page" : undefined}
     >
       <Slot />
