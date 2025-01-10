@@ -1,0 +1,24 @@
+[data-theme="dark"] {
+  #qwik-theme-toggle-dark-icon {
+    display: none;
+  }
+}
+
+[data-theme="light"] {
+  #qwik-theme-toggle-light-icon {
+    display: none;
+  }
+}
+
+#qwik-theme-toggle-dark-icon,
+#qwik-theme-toggle-light-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  svg {
+    /* this comes from tailwind size 6 */
+    height: 24px;
+  }
+}
+
+/* todo testing-astro-again repo has some view transitions examples, shouldn't be added here, but could be a separate component */
